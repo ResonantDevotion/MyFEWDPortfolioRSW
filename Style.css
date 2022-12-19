@@ -178,7 +178,7 @@ t5{
     position: relative;
 
 }
-
+/* There is a lot of repitition in the css but I will neaten it up once I have the layout sussed. */
 /* _______________________^^^^ small grid ^^^^_______________________ */
 
 
@@ -190,3 +190,4 @@ footer{
 }
 
 @media queries 
+/* _______________________^^^^ media queries for webpage responsivity ^^^^_______________________ */
