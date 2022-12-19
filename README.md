@@ -2,13 +2,9 @@
 A portfolio showcasing all of what I have learnt in Front End Web Development.
 
 ## Description
+This portfolio was created to showcase my learnings and skills that I built up from my FEWD course. This is so that I can show potential employers a tangible demonstration of my skills. It is also a work in progress that I will add to as I develop my skills, so I will also have a version control platform of my progress.
+At this current point 20/12/22, I have added HTML, CSS, flex and grid boxes and am working on webpage responsiveness. It is the first time I have built a website from scratch and have also been experimenting with color combinations and aesthetic.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Acceptance Criteria
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
@@ -22,28 +18,16 @@ When the page is resized or viewed on various screens and devices then the layou
 
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+N/A at this stage
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+N/A
 
 ## Credits
-
+Skills Bootcamp team who taught me.
 
 ## License
 
@@ -57,13 +41,10 @@ MIT Licence
 N/A
 
 ## Features
-
-If your project has a lot of features, list them here.
+N/A
 
 ## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+If you would like to contribute please find me on the Skills Bootcamp slack channel :D
 
 ## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+N/A
