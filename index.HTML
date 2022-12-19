@@ -1,64 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Style.css" rel="stylesheet" type="text/css">
     <title>Rebecca Wood's Portfolio</title>
 </head>
-<!-- Here we have to add a header, name/title is on the left and the -->
+
+<!-- Here we have to add a header, name/title is on the left and the links on the right-->
+
 <nav>
-    <header>
+    <header class="header">
         <h1>Rebecca Wood's Portfolio</h1>
-        <!--Can add the multiple css that just targets the h2 under the header-->
-        <h2>About me</h2> 
-        <h2>Work</h2>
-        <h2>Contact</h2>
-        <h2>Resume</h2>
     </header>
+    <div id="nav-div">
+        <!--Can add the multiple css that just targets the h2 under the header-->
+        <h2 class="nav-h2"><a href="#about-me">About me</a></h2>
+        <h2 class="nav-h2"><a href="#work">Work</a></h2>
+        <h2 class="nav-h2"><a href="#contact">Contact</a></h2>
+        <h2 class="nav-h2"><a href="#resume">Resume</a></h2>
+    </div>
 </nav>
+<!--_______________________^^^^ Nav ^^^^_______________________ -->
+
 <body>
     <section>
-        <img class="header-image">
-        <h2></h2>
+        <div>
+            <img class="header-image" alt="computer work desk" src="./images/desks 2.png">
+            <div>
+                <h2 id="subTitle">Junior Front-End Web Developer</h2>
+            </div>
+        </div>
     </section>
 
-    <aside>
-        <h2>About Me</h2>
-    </aside>
-    <section>
-        <p>Hi! My name is Rebecca and I am doing the Front-End Web Development bootcamp so I can learn new skills and get a good job. This is my portfolio, showcasing all of the skills that I am learning in the bootcamp.</p>
-    </section>
+    <!--_______________________^^^^ header image ^^^^_______________________ -->
+    <section class="gridBox">
 
-    <aside>
-        <h2>Work</h2>
-    </aside>
-    <section class="work-showcase-grid">
-        <h3>HTML</h3>
-        <h3>CSS</h3>
-        <h3>JAVA</h3>
-        <h3>Challenge 1</h3>
-        <h3>Mini-challenge 2</h3>
-    </section>
+        <aside class="about-me">
+            <h2 id="about-me">About Me</h2>
+        </aside>
 
-    <aside>
-        <h2>Contact</h2>
-    </aside>
-    <section>
-        <p>Email</p>
-        <p>Number</p>
-        <a link="https://www.linkedin.com/in/rebecca-wood-b3a365119/">LinkedIn</a>
-    </section>
+        <section id="AM-d">
+            <p> Hi! My name is Rebecca and I am doing the Front-End Web Development bootcamp so I can learn new
+                skills
+                and
+                get a good job. This is my portfolio, showcasing all of the skills that I am learning in the
+                bootcamp.
+            </p>
+        </section>
+        <!--_______________________^^^^ about me section ^^^^_______________________ -->
 
-    <aside>
-        <h2>Resume</h2>
-    </aside>
-    <section>
-        <link>
-    </section>
 
+        <aside class="work">
+            <h2 id="work">Work</h2>
+        </aside>
+
+        <section class="work-showcase-grid">
+            <div class="t1">
+                <div id="worktext">
+                    <h2>t1</h2>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="t2">
+                <div id="worktext">
+                    <h2>t2</h2>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="t3">
+                <div id="worktext">
+                    <h2>t3</h2>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="t4">
+                <div id="worktext">
+                    <h2>t4</h2>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="t5">
+                <div id="worktext">
+                    <h2>t5</h2>
+                    <p>Description</p>
+                </div>
+            </div>
+        </section>
+<!-- Texts here are just being used as a filler until I can get the layout sorted. -->
+        <!--_______________________^^^^ work grid section ^^^^_______________________ -->
+
+        <aside class="contact">
+            <h2 id="contact">Contact</h2>
+        </aside>
+        <section class="contact-d">
+            <p id="email">Email</p>
+            <p id="number">Number</p>
+            <p><a id="linkedin" link="https://www.linkedin.com/in/rebecca-wood-b3a365119/">LinkedIn</a>
+        </section></p>
+
+        <!--_______________________^^^^ contact section^^^^_______________________ -->
+
+        <aside class="resume">
+            <h2 id="resume">Resume</h2>
+        </aside>
+        <section class="resume-d">
+            <p> This is the link to..</p>
+        </section>
+
+        <!--_______________________^^^^ resume section ^^^^_______________________ -->
+    </section>
 </body>
+
 <footer>
     <h3>Made with love by Rebecca</h3>
 </footer>
+
 </html>
+
+
+<!-- 
+<section class="work-showcase-grid">
+    <div class="prework-challenge">Prework challenge
+        <p>Description</p>
+    </div>
+    <div class="Week1mini-challenge">Week 1 mini-challenge
+        <p>Description</p>
+    </div>
+    <div class="Week2mini-challenge">Week 2 mini-challenge
+        <p>Description</p>
+    </div>
+    <div class="Week1challenge">Week 1 challenge
+        <p>Description</p>
+    </div>
+    <div class="Week2challenge">Week 2 challenge
+        <p>Description</p>
+    </div>
+</section> -->
