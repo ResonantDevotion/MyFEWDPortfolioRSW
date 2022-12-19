@@ -40,7 +40,6 @@ N/A at this stage
 N/A
 
 ## Usage
-N/A
 
 <img width="480" alt="FEWD portfolio 20:12:22" src="https://user-images.githubusercontent.com/119468426/208546247-cd81d052-74b5-4b65-985e-b9c783d2a8c1.png">
 
