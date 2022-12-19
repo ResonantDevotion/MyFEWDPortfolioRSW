@@ -1,0 +1,192 @@
+html{
+    background-color: gainsboro;
+}
+
+:root{
+    --bgc: #76d8d5;
+    --border: 1px 
+}
+/* _______________________^^^^ head ^^^^_______________________ */
+
+nav{
+    background-color: #7e8181;
+    border: 3px dashed #76d8d5;
+    display: flex; 
+    justify-content: space-between;
+    /* ^^ Adding this to the parent container is what allowed the children to seperate */
+    padding: 20px;
+    /* ^ Saying that every child is flex ^ */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+    background-color: var(--bgc);
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    right: 10;
+}
+
+#nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-h2{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+a{
+    color: black;
+}
+
+/* _______________________^^^^ Nav ^^^^_______________________ */
+
+.header-image{
+    height: 200px;
+    background-position: center;
+    background-image: url(./images/desks\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subTitle{
+    background-color: blueviolet;
+}
+/* _______________________^^^^ Header image ^^^^_______________________ */
+
+.gridBox{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "am am-d"
+    "w w-d"
+    "c c-d"
+    "r r-d";
+}
+
+.about-me{
+    height: 300px;
+    border-right: 3px solid black;
+    grid-area: am ;
+    display: inline-flex;
+    margin-bottom: 50px;
+    text-align: right;
+    padding: 10px;
+}
+
+#AM-d{
+    grid-area: am-d ;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+
+
+/* _______________________^^^^ big grid ^^^^_______________________ */
+.work{
+    height: 300px;
+    grid-area: w;
+    border-right: 3px solid black;
+    margin-bottom: 50px;
+    text-align: end;
+    padding: 10px;
+}
+
+.work-showcase-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 25% 25%;
+    grid-area: w-d ;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    grid-template-areas: "t1 t1" "t2 t3" "t4 t5";
+}
+
+.contact{
+    grid-area: c;
+    border-right: 3px solid black;
+    margin-bottom: 50px;
+    text-align: end;
+    padding: 10px;
+}
+
+.contact-d{
+    grid-area: c-d;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.resume{
+    grid-area: r;
+    border-right: 3px solid black;
+    margin-bottom: 50px;
+    text-align: end;
+    padding: 10px;
+}
+
+.resume-d{
+    grid-area: r-d;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.t1{
+    background-color: antiquewhite;
+    border: 2px solid #76d8d5;
+    grid-area: t1;
+    background-image: url(./images/desks\ 2.png);
+}
+
+.t2{
+    grid-area: t2;
+    background-image: url(./images/desks\ 2.png);
+    border: 2px solid #76d8d5;
+}
+
+.t3{
+    grid-area: t3;
+    border: 2px solid #76d8d5;
+}
+
+t4{
+    grid-area: t4;
+    border: 2px solid #76d8d5;
+}
+
+t5{
+    grid-area: t5;
+    border: 2px solid #76d8d5;
+}
+
+#worktext{
+    background-color: #76d8d5;
+    position: relative;
+
+}
+
+/* _______________________^^^^ small grid ^^^^_______________________ */
+
+
+footer{
+    text-align: center;
+    background-color: #76d8d5;
+    width: 100%;
+    margin: 0%;
+}
+
+@media queries 
