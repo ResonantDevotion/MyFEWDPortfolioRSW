@@ -6,7 +6,15 @@ html{
     --bgc: #76d8d5;
     --border: 1px 
 }
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* _______________________^^^^ head ^^^^_______________________ */
+
+body{
+    margin: 0px;
+}
 
 nav{
     background-color: #7e8181;
@@ -16,6 +24,7 @@ nav{
     /* ^^ Adding this to the parent container is what allowed the children to seperate */
     padding: 20px;
     /* ^ Saying that every child is flex ^ */
+    font-style: italic;
 }
 
 header{
@@ -24,11 +33,16 @@ header{
     justify-content: flex-start;
     border: 1px solid black;
     background-color: var(--bgc);
-    padding-left: 10px;
+    padding-left: 50px;
     padding-right: 10px;
-    position: relative;
-    right: 10;
+    color: black;
+    height: 50px;
 }
+
+/* h1{
+    position: absolute;
+    right: 0px;
+} */
 
 #nav-div{
     display: flex;
@@ -38,14 +52,16 @@ header{
 
 .nav-h2{
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     padding: 10px;
-    text-decoration: underline;
+    border-bottom: 2px solid var(--bgc);
+    margin: 20px;
 }
 
 a{
-    color: black;
+    color: var(--bgc);
+    text-decoration: none !important;
 }
 
 /* _______________________^^^^ Nav ^^^^_______________________ */
@@ -66,7 +82,7 @@ a{
 .gridBox{
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 500px 100px 100px 100px;
     grid-template-areas: 
     "am am-d"
     "w w-d"
@@ -75,13 +91,16 @@ a{
 }
 
 .about-me{
-    height: 300px;
     border-right: 3px solid black;
     grid-area: am ;
     display: inline-flex;
     margin-bottom: 50px;
-    text-align: right;
     padding: 10px;
+    text-align: right;
+}
+
+#about-me{
+    text-align: right;
 }
 
 #AM-d{
@@ -94,7 +113,6 @@ a{
 
 /* _______________________^^^^ big grid ^^^^_______________________ */
 .work{
-    height: 300px;
     grid-area: w;
     border-right: 3px solid black;
     margin-bottom: 50px;
@@ -104,6 +122,7 @@ a{
 
 .work-showcase-grid{
     display: grid;
+    height: 500px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 25% 25%;
     grid-area: w-d ;
@@ -178,6 +197,12 @@ t5{
     position: relative;
 
 }
+
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 /* There is a lot of repitition in the css but I will neaten it up once I have the layout sussed. */
 /* _______________________^^^^ small grid ^^^^_______________________ */
 
