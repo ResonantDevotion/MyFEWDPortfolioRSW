@@ -16,7 +16,7 @@ body{
     margin: 0px;
 }
 
-nav{
+#nav{
     background-color: #7e8181;
     border: 3px dashed #76d8d5;
     display: flex; 
