@@ -1,33 +1,49 @@
-html{
+html {
     background-color: gainsboro;
 }
 
-:root{
+:root {
     --bgc: #76d8d5;
-    --border: 1px 
+    --border: 1px
 }
 
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* _______________________^^^^ head ^^^^_______________________ */
 
-body{
+
+.container {
+    display: flex;
+    flex-direction: row;
     margin: 0px;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+    object-fit: fill;
 }
 
-#nav{
+/* _______________________^^^^ head ^^^^_______________________ */
+
+body {
+    margin: 0px;
+    max-width: 100%;
+    height: 100%;
+}
+
+#nav {
     background-color: #7e8181;
     border: 3px dashed #76d8d5;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     /* ^^ Adding this to the parent container is what allowed the children to seperate */
     padding: 20px;
     /* ^ Saying that every child is flex ^ */
     font-style: italic;
+    max-width: 100%;
+    margin: 0px;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -44,67 +60,70 @@ header{
     right: 0px;
 } */
 
-#nav-div{
+#nav-div {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.nav-h2{
+.nav-h2 {
     align-items: center;
     justify-content: space-between;
     display: flex;
     padding: 10px;
-    border-bottom: 2px solid var(--bgc);
+    border-bottom: 2px solid var(--bgc, );
     margin: 20px;
 }
 
-a{
-    color: var(--bgc);
-    text-decoration: none !important;
+a {
+    color: black;
+    text-decoration: underline;
 }
 
 /* _______________________^^^^ Nav ^^^^_______________________ */
 
-.header-image{
-    height: 200px;
+.header-image {
+    max-width: 100%;
+    height: auto;
     background-position: center;
-    background-image: url(./images/desks\ 2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: fill;
 }
 
-#subTitle{
-    background-color: blueviolet;
+#me {
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 50%;
 }
 /* _______________________^^^^ Header image ^^^^_______________________ */
 
-.gridBox{
+.gridBox {
+    max-width: 100%;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 100px 500px 100px 100px 100px;
-    grid-template-areas: 
-    "am am-d"
-    "w w-d"
-    "c c-d"
-    "r r-d";
+    grid-template-areas:
+        "am am-d"
+        "w w-d"
+        "c c-d"
+        "r r-d";
 }
 
-.about-me{
+.about-me {
     border-right: 3px solid black;
-    grid-area: am ;
+    grid-area: am;
     display: inline-flex;
     margin-bottom: 50px;
     padding: 10px;
     text-align: right;
 }
 
-#about-me{
+#about-me {
     text-align: right;
 }
 
-#AM-d{
-    grid-area: am-d ;
+#AM-d {
+    grid-area: am-d;
     margin-bottom: 50px;
     margin-left: 20px;
 }
@@ -112,7 +131,7 @@ a{
 
 
 /* _______________________^^^^ big grid ^^^^_______________________ */
-.work{
+.work {
     grid-area: w;
     border-right: 3px solid black;
     margin-bottom: 50px;
@@ -120,18 +139,18 @@ a{
     padding: 10px;
 }
 
-.work-showcase-grid{
+.work-showcase-grid {
     display: grid;
     height: 500px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 25% 25%;
-    grid-area: w-d ;
+    grid-area: w-d;
     margin-bottom: 50px;
     margin-left: 20px;
     grid-template-areas: "t1 t1" "t2 t3" "t4 t5";
 }
 
-.contact{
+.contact {
     grid-area: c;
     border-right: 3px solid black;
     margin-bottom: 50px;
@@ -139,7 +158,7 @@ a{
     padding: 10px;
 }
 
-.contact-d{
+.contact-d {
     grid-area: c-d;
     padding-bottom: 100px;
     margin-bottom: 50px;
@@ -148,7 +167,7 @@ a{
     justify-content: space-evenly;
 }
 
-.resume{
+.resume {
     grid-area: r;
     border-right: 3px solid black;
     margin-bottom: 50px;
@@ -156,7 +175,7 @@ a{
     padding: 10px;
 }
 
-.resume-d{
+.resume-d {
     grid-area: r-d;
     align-items: center;
     justify-content: space-evenly;
@@ -164,42 +183,74 @@ a{
     margin-left: 20px;
 }
 
-.t1{
+.t1 {
     background-color: antiquewhite;
     border: 2px solid #76d8d5;
     grid-area: t1;
-    background-image: url(./images/desks\ 2.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-image: url("https://github.com/ResonantDevotion/MovieSlashCocktailParty");
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
-.t2{
+.t2 {
     grid-area: t2;
-    background-image: url(./images/desks\ 2.png);
+    background-image: url("../images/desks2.png");
     border: 2px solid #76d8d5;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-image: url("../images/desks2.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
-.t3{
+.t3 {
     grid-area: t3;
     border: 2px solid #76d8d5;
+    background-image: url("../images/desks2.png");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-image: url("../images/desks2.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
-t4{
+.t4 {
     grid-area: t4;
     border: 2px solid #76d8d5;
+    background-image: url("../images/desks2.png");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-image: url("../images/desks2.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
-t5{
+.t5 {
     grid-area: t5;
     border: 2px solid #76d8d5;
+    background-image: url("../images/desks2.png");
+    background-position: center;
+    background-image: url("../images/desks2.png");
+    background-repeat: no-repeat;
+    object-fit: fill;
 }
 
-#worktext{
-    background-color: #76d8d5;
+.projects {
     position: relative;
-
 }
 
-p{
-    font-size: 20px;
+.worktext {
+    background-color: rgba(118, 216, 213, 0.4);
+}
+
+p {
+    font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -207,12 +258,41 @@ p{
 /* _______________________^^^^ small grid ^^^^_______________________ */
 
 
-footer{
+footer {
     text-align: center;
     background-color: #76d8d5;
     width: 100%;
     margin: 0%;
 }
 
-@media queries 
-/* _______________________^^^^ media queries for webpage responsivity ^^^^_______________________ */
+
+
+/* media queries */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    .container .gridBox {
+        max-width: 540px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container .gridBox {
+        max-width: 720px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container .gridBox {
+        max-width: 960px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container .gridBox {
+        max-width: 1140px;
+    }
+}
