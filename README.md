@@ -1,9 +1,9 @@
 # MyFEWDPortfolioRSW
-A portfolio showcasing all of what I have learnt in Front End Web Development.
+A portfolio showcasing my html and css skills.
 
 ## Description
 This portfolio was created to showcase my learnings and skills that I built up from my FEWD course. This is so that I can show potential employers a tangible demonstration of my skills. It is also a work in progress that I will add to as I develop my skills, so I will also have a version control platform of my progress.
-At this current point 20/12/22, I have added HTML, CSS, flex and grid boxes and am working on webpage responsiveness. It is the first time I have built a website from scratch and have also been experimenting with color combinations and aesthetic.
+At this current point 18/03/23, I have added HTML, CSS, flex and grid boxes and am working on webpage responsiveness. It is the first time I have built a website from scratch and have also been experimenting with color combinations and aesthetic.
 
 
 ## Acceptance Criteria
@@ -16,22 +16,6 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 - When images of the applications are clicked then the user is taken to that deployed application
 - When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
-Ideal submission requirements:
-- Application deployed at live URL.
-- Application loads with no errors.
-- Application GitHub URL submitted.
-- GitHub repository contains application code.
-
-- Application resembles the mock-up functionality provided in the Challenge instructions.
-
-- Repository has a unique name.
-- Repository follows best practices for file structure and naming conventions.
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-- Repository contains multiple descriptive commit messages.
-- Repository contains quality readme with description, screenshot, link to deployed application.
-
-- The URL of the deployed application.
-- The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 ## Table of Contents (Optional)
 N/A at this stage
@@ -41,7 +25,13 @@ N/A
 
 ## Usage
 
+First draft:
+
 <img width="480" alt="FEWD portfolio 20:12:22" src="https://user-images.githubusercontent.com/119468426/208546247-cd81d052-74b5-4b65-985e-b9c783d2a8c1.png">
+
+Second draft:
+
+<img width="1435" alt="Screenshot 2023-03-18 at 12 16 51 PM" src="https://user-images.githubusercontent.com/119468426/226068394-b3ab5fa1-3b87-44b3-bfd8-2b45f302827c.png">
 
 ## Credits
 Skills Bootcamp team who taught me.
