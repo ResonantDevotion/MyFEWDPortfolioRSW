@@ -1,7 +1,4 @@
-html {
-    background-color: var(--reddybrown);
-}
-
+/* Setting universal color theme */
 :root {
     --purple: #8a9ac4;
     --purpleopaque: rgba(138, 154, 196, 0.5);
@@ -10,12 +7,14 @@ html {
     --reddybrown: #d3a287;
     --border: 1px
 }
-
+/* Adding background color */
+html {
+    background-color: var(--reddybrown);
+}
+/* Adding universal font */
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 .container {
     display: flex;
     flex-direction: row;
@@ -40,7 +39,6 @@ body {
     justify-content: space-between;
     /* ^^ Adding this to the parent container is what allowed the children to seperate */
     padding: 20px;
-    /* ^ Saying that every child is flex ^ */
     font-style: italic;
     margin: 0px;
     width: 100%;
@@ -242,7 +240,6 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-/* There is a lot of repitition in the css but I will neaten it up once I have the layout sussed. */
 /* _______________________^^^^ small grid ^^^^_______________________ */
 
 
@@ -252,8 +249,6 @@ footer {
     width: 100%;
     margin: 0%;
 }
-
-
 
 /* media queries */
 
